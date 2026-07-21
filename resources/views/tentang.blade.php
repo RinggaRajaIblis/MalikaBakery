@@ -12,7 +12,7 @@
             Cerita Kehangatan & Dedikasi Kami
         </h1>
         <p class="text-[#7A5C45] text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-            Menghadirkan kelezatan roti artisan dan pastry hangat setiap hari dengan bahan alami terbaik sejak 2018.
+            Menghadirkan kelezatan roti segar dan pastry hangat setiap hari dengan bahan alami terbaik sejak 2018.
         </p>
     </div>
 </section>
@@ -92,7 +92,7 @@
                     </div>
                     <h3 class="font-serif-heading text-2xl font-bold text-[#4A2E1B]">Visi Kami</h3>
                     <p class="text-[#6E5544] text-base leading-relaxed">
-                        Menjadi toko roti artisan terdepan dan paling dicintai di Indonesia yang dikenal karena kualitas bahan premium, inovasi rasa, dan kehangatan pelayanan khas Nusantara.
+                        Menjadi toko roti terdepan dan paling dicintai di Indonesia yang dikenal karena kualitas bahan premium, inovasi rasa, dan kehangatan pelayanan khas Nusantara.
                     </p>
                 </div>
                 <div class="mt-6 pt-6 border-t border-[#F0E6D8] text-xs font-semibold text-[#8B5E3C]">
@@ -120,7 +120,7 @@
                     </ul>
                 </div>
                 <div class="mt-6 pt-6 border-t border-[#F0E6D8] text-xs font-semibold text-[#D9822B]">
-                    Inovasi Berkelanjutan & Higienitas Terjamin
+                    Komitmen Higienis & Halal 100%
                 </div>
             </div>
 
@@ -170,55 +170,52 @@
     </div>
 </section>
 
-<!-- Meet Baker Team Section -->
+<!-- Store Atmosphere Section -->
 <section class="py-20 bg-[#FFFDF9] border-t border-[#F0E6D8]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div class="text-center max-w-3xl mx-auto mb-16">
-            <span class="text-xs font-bold text-[#D9822B] uppercase tracking-widest">Orang di Balik Dapur</span>
+            <span class="text-xs font-bold text-[#D9822B] uppercase tracking-widest">Suasana Toko Kami</span>
             <h2 class="font-serif-heading text-3xl sm:text-4xl font-bold text-[#4A2E1B] mt-1">
-                Tim Pemanggang Berdedikasi
+                Kenyamanan & Kehangatan Toko
             </h2>
             <p class="text-[#7A5C45] mt-2 text-base">
-                Para ahli yang menuangkan passion dan pengalaman dalam setiap lembar adonan.
+                Setiap sudut toko dirancang untuk memberikan kenyamanan dan kehangatan aroma roti segar dari oven.
             </p>
         </div>
 
         <div class="grid md:grid-cols-3 gap-8">
             
-            <!-- Baker 1 -->
-            <div class="bg-white rounded-2xl overflow-hidden border border-[#E8D5C4] shadow-md text-center group">
+            <!-- Foto Suasana 1 -->
+            <div class="bg-white rounded-2xl overflow-hidden border border-[#E8D5C4] shadow-md group">
                 <div class="h-64 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=600&q=80" alt="Master Baker Malika" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <img src="{{ asset('images/toko1 (1).png') }}" alt="Display Roti MalikaBakery" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                 </div>
-                <div class="p-6 space-y-2">
-                    <h3 class="font-serif-heading text-xl font-bold text-[#4A2E1B]">Malika Kirana</h3>
-                    <p class="text-xs text-[#D9822B] font-bold uppercase tracking-wider">Founder & Head Baker</p>
-                    <p class="text-xs text-[#7A5C45] pt-2 leading-relaxed">10+ tahun pengalaman di bidang pastry & artisan sourdough fermentation.</p>
+                <div class="p-6 space-y-2 text-center">
+                    <h3 class="font-serif-heading text-xl font-bold text-[#4A2E1B]">Display Roti Fresh</h3>
+                    <p class="text-xs text-[#7A5C45] leading-relaxed">Roti dan pastry dipajang hangat langsung setelah selesai dipanggang setiap pagi.</p>
                 </div>
             </div>
 
-            <!-- Baker 2 -->
-            <div class="bg-white rounded-2xl overflow-hidden border border-[#E8D5C4] shadow-md text-center group">
+            <!-- Foto Suasana 2 -->
+            <div class="bg-white rounded-2xl overflow-hidden border border-[#E8D5C4] shadow-md group">
                 <div class="h-64 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=600&q=80" alt="Pastry Specialist Hendra" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <img src="{{ asset('images/toko1 (3).png') }}" alt="Area Pelayanan Toko" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                 </div>
-                <div class="p-6 space-y-2">
-                    <h3 class="font-serif-heading text-xl font-bold text-[#4A2E1B]">Hendra Wijaya</h3>
-                    <p class="text-xs text-[#D9822B] font-bold uppercase tracking-wider">Pastry Specialist</p>
-                    <p class="text-xs text-[#7A5C45] pt-2 leading-relaxed">Ahli dalam pembuatan roti manis & gurih lembut bermutu tinggi.</p>
+                <div class="p-6 space-y-2 text-center">
+                    <h3 class="font-serif-heading text-xl font-bold text-[#4A2E1B]">Pelayanan Ramah</h3>
+                    <p class="text-xs text-[#7A5C45] leading-relaxed">Tim kami selalu siap menyambut Anda dengan hangat dan pelayanan terbaik.</p>
                 </div>
             </div>
 
-            <!-- Baker 3 -->
-            <div class="bg-white rounded-2xl overflow-hidden border border-[#E8D5C4] shadow-md text-center group">
+            <!-- Foto Suasana 3 -->
+            <div class="bg-white rounded-2xl overflow-hidden border border-[#E8D5C4] shadow-md group">
                 <div class="h-64 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1607631568010-a87245c0daf8?auto=format&fit=crop&w=600&q=80" alt="Cake Decorator Siti" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <img src="{{ asset('images/toko1 (4).png') }}" alt="Sudut Bersih MalikaBakery" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                 </div>
-                <div class="p-6 space-y-2">
-                    <h3 class="font-serif-heading text-xl font-bold text-[#4A2E1B]">Siti Aminah</h3>
-                    <p class="text-xs text-[#D9822B] font-bold uppercase tracking-wider">Cake Decorator</p>
-                    <p class="text-xs text-[#7A5C45] pt-2 leading-relaxed">Spesialis kreasi kue ulang tahun dan dekorasi tart estetis penuh detail.</p>
+                <div class="p-6 space-y-2 text-center">
+                    <h3 class="font-serif-heading text-xl font-bold text-[#4A2E1B]">Ruang Bersih & Higienis</h3>
+                    <p class="text-xs text-[#7A5C45] leading-relaxed">Kebersihan dan kenyamanan area toko selalu menjadi fokus utama kami.</p>
                 </div>
             </div>
 

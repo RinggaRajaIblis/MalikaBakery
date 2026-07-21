@@ -26,7 +26,7 @@
                 </h1>
 
                 <p class="text-[#6E5544] text-base sm:text-lg lg:text-xl max-w-2xl leading-relaxed mx-auto lg:mx-0 font-normal">
-                    MalikaBakery menyajikan kelembutan roti artisan, pilihan roti gurih & manis yang lezat, serta kue lembut yang dibuat dengan bahan alami premium tanpa pengawet sintetis.
+                    MalikaBakery menyajikan kelembutan roti segar, pilihan roti gurih & manis yang lezat, serta kue lembut yang dibuat dengan bahan alami premium tanpa pengawet sintetis.
                 </p>
 
                 <!-- Hero Action Buttons -->

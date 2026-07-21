@@ -38,7 +38,7 @@
                 </div>
                 <div class="flex flex-col">
                     <span class="font-serif-heading text-2xl font-bold tracking-tight text-[#4A2E1B] leading-none">Malika<span class="text-[#D9822B]">Bakery</span></span>
-                    <span class="text-[10px] tracking-widest text-[#8B5E3C] font-semibold uppercase mt-0.5">Artisan Pastry & Bread</span>
+                    <span class="text-[10px] tracking-widest text-[#8B5E3C] font-semibold uppercase mt-0.5">Fresh Pastry & Bakery</span>
                 </div>
             </a>
 
@@ -166,7 +166,7 @@
                         <span class="font-serif-heading text-2xl font-bold text-white tracking-wide">Malika<span class="text-[#D9822B]">Bakery</span></span>
                     </div>
                     <p class="text-sm text-[#C4B29E] leading-relaxed">
-                        Menghadirkan kelezatan dan kehangatan roti manis, pastry artisan, serta kue tradisional buatan tangan berkualitas terbaik sejak 2018.
+                        Menghadirkan kelezatan dan kehangatan roti manis, pastry lezat, serta kue tradisional buatan tangan berkualitas terbaik sejak 2018.
                     </p>
                     <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-[#3D2716] text-xs text-[#D9822B] font-semibold">
                         <span>✔ 100% Halal & Tanpa Pengawet</span>
