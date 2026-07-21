@@ -196,7 +196,7 @@
                         <span class="text-[#D9822B]">+</span>
                     </h3>
                     <p class="text-xs text-[#6E5544] mt-3 leading-relaxed border-t border-[#F0E6D8] pt-3">
-                        Karena kami tidak menggunakan pengawet buatan, roti manis & croissant terbaik dikonsumsi dalam 2-3 hari pada suhu ruangan. Untuk penyimpanan freezer (sourdough/brownies) bisa bertahan hingga 2 minggu.
+                        Karena kami tidak menggunakan pengawet buatan, roti manis & savory terbaik dikonsumsi dalam 2-3 hari pada suhu ruangan. Untuk penyimpanan freezer bisa bertahan hingga 2 minggu.
                     </p>
                 </div>
 

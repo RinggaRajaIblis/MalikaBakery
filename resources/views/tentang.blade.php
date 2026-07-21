@@ -206,7 +206,7 @@
                 <div class="p-6 space-y-2">
                     <h3 class="font-serif-heading text-xl font-bold text-[#4A2E1B]">Hendra Wijaya</h3>
                     <p class="text-xs text-[#D9822B] font-bold uppercase tracking-wider">Pastry Specialist</p>
-                    <p class="text-xs text-[#7A5C45] pt-2 leading-relaxed">Ahli dalam pembuatan croissant berlapis renyah dan Danish pastry khas Eropa.</p>
+                    <p class="text-xs text-[#7A5C45] pt-2 leading-relaxed">Ahli dalam pembuatan roti manis & gurih lembut bermutu tinggi.</p>
                 </div>
             </div>
 

@@ -26,7 +26,7 @@
                 </h1>
 
                 <p class="text-[#6E5544] text-base sm:text-lg lg:text-xl max-w-2xl leading-relaxed mx-auto lg:mx-0 font-normal">
-                    MalikaBakery menyajikan kelembutan roti artisan, croissant berlapis renyah, dan kue lembut yang dibuat dengan bahan alami premium tanpa pengawet sintesis.
+                    MalikaBakery menyajikan kelembutan roti artisan, pilihan roti gurih & manis yang lezat, serta kue lembut yang dibuat dengan bahan alami premium tanpa pengawet sintetis.
                 </p>
 
                 <!-- Hero Action Buttons -->
@@ -341,7 +341,7 @@
                         ★★★★★
                     </div>
                     <p class="text-sm text-[#5C4033] leading-relaxed italic">
-                        "Croissant-nya beneran renyah banget dan wangi butter-nya tercium waktu baru buka bungkus. Favorit keluarga setiap sarapan pagi!"
+                        "Rotinya beneran lembut banget dan wangi butter-nya tercium waktu baru buka bungkus. Favorit keluarga setiap sarapan pagi!"
                     </p>
                 </div>
                 <div class="flex items-center gap-3 pt-4 border-t border-[#F0E6D8]">
