@@ -170,58 +170,6 @@
     </div>
 </section>
 
-<!-- Store Atmosphere Section -->
-<section class="py-20 bg-[#FFFDF9] border-t border-[#F0E6D8]">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        <div class="text-center max-w-3xl mx-auto mb-16">
-            <span class="text-xs font-bold text-[#D9822B] uppercase tracking-widest">Suasana Toko Kami</span>
-            <h2 class="font-serif-heading text-3xl sm:text-4xl font-bold text-[#4A2E1B] mt-1">
-                Kenyamanan & Kehangatan Toko
-            </h2>
-            <p class="text-[#7A5C45] mt-2 text-base">
-                Setiap sudut toko dirancang untuk memberikan kenyamanan dan kehangatan aroma roti segar dari oven.
-            </p>
-        </div>
 
-        <div class="grid md:grid-cols-3 gap-8">
-            
-            <!-- Foto Suasana 1 -->
-            <div class="bg-white rounded-2xl overflow-hidden border border-[#E8D5C4] shadow-md group">
-                <div class="h-64 overflow-hidden">
-                    <img src="{{ asset('images/toko1 (1).png') }}" alt="Display Roti MalikaBakery" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                </div>
-                <div class="p-6 space-y-2 text-center">
-                    <h3 class="font-serif-heading text-xl font-bold text-[#4A2E1B]">Display Roti Fresh</h3>
-                    <p class="text-xs text-[#7A5C45] leading-relaxed">Roti dan pastry dipajang hangat langsung setelah selesai dipanggang setiap pagi.</p>
-                </div>
-            </div>
-
-            <!-- Foto Suasana 2 -->
-            <div class="bg-white rounded-2xl overflow-hidden border border-[#E8D5C4] shadow-md group">
-                <div class="h-64 overflow-hidden">
-                    <img src="{{ asset('images/toko1 (3).png') }}" alt="Area Pelayanan Toko" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                </div>
-                <div class="p-6 space-y-2 text-center">
-                    <h3 class="font-serif-heading text-xl font-bold text-[#4A2E1B]">Pelayanan Ramah</h3>
-                    <p class="text-xs text-[#7A5C45] leading-relaxed">Tim kami selalu siap menyambut Anda dengan hangat dan pelayanan terbaik.</p>
-                </div>
-            </div>
-
-            <!-- Foto Suasana 3 -->
-            <div class="bg-white rounded-2xl overflow-hidden border border-[#E8D5C4] shadow-md group">
-                <div class="h-64 overflow-hidden">
-                    <img src="{{ asset('images/toko1 (4).png') }}" alt="Sudut Bersih MalikaBakery" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                </div>
-                <div class="p-6 space-y-2 text-center">
-                    <h3 class="font-serif-heading text-xl font-bold text-[#4A2E1B]">Ruang Bersih & Higienis</h3>
-                    <p class="text-xs text-[#7A5C45] leading-relaxed">Kebersihan dan kenyamanan area toko selalu menjadi fokus utama kami.</p>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</section>
 
 @endsection

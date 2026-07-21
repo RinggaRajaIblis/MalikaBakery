@@ -14,9 +14,6 @@ Route::get('/produk', function () {
     return view('produk');
 })->name('produk');
 
-Route::get('/galeri', function () {
-    return view('galeri');
-})->name('galeri');
 
 Route::get('/kontak', function () {
     return view('kontak');

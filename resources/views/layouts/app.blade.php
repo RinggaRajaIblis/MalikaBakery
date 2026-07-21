@@ -62,12 +62,7 @@
                         Menu Produk
                     </a>
                 </li>
-                <li>
-                    <a href="{{ route('galeri') }}"
-                        class="px-4 py-2 rounded-full transition-all duration-200 {{ request()->routeIs('galeri') ? 'bg-[#8B5E3C] text-white shadow-sm font-semibold' : 'hover:text-[#8B5E3C] hover:bg-[#F9F0E6]' }}">
-                        Galeri Foto
-                    </a>
-                </li>
+
                 <li>
                     <a href="{{ route('kontak') }}"
                         class="px-4 py-2 rounded-full transition-all duration-200 {{ request()->routeIs('kontak') ? 'bg-[#8B5E3C] text-white shadow-sm font-semibold' : 'hover:text-[#8B5E3C] hover:bg-[#F9F0E6]' }}">
@@ -117,12 +112,7 @@
                         Menu Produk
                     </a>
                 </li>
-                <li>
-                    <a href="{{ route('galeri') }}"
-                        class="block px-4 py-3 rounded-xl {{ request()->routeIs('galeri') ? 'bg-[#8B5E3C] text-white font-semibold' : 'hover:bg-[#F9F0E6]' }}">
-                        Galeri Foto
-                    </a>
-                </li>
+
                 <li>
                     <a href="{{ route('kontak') }}"
                         class="block px-4 py-3 rounded-xl {{ request()->routeIs('kontak') ? 'bg-[#8B5E3C] text-white font-semibold' : 'hover:bg-[#F9F0E6]' }}">
@@ -180,7 +170,7 @@
                         <li><a href="{{ route('home') }}" class="hover:text-[#D9822B] transition-colors flex items-center gap-2"><span class="text-[#D9822B]">›</span> Beranda Utama</a></li>
                         <li><a href="{{ route('tentang') }}" class="hover:text-[#D9822B] transition-colors flex items-center gap-2"><span class="text-[#D9822B]">›</span> Tentang MalikaBakery</a></li>
                         <li><a href="{{ route('produk') }}" class="hover:text-[#D9822B] transition-colors flex items-center gap-2"><span class="text-[#D9822B]">›</span> Katalog Menu & Harga</a></li>
-                        <li><a href="{{ route('galeri') }}" class="hover:text-[#D9822B] transition-colors flex items-center gap-2"><span class="text-[#D9822B]">›</span> Galeri Suasana Toko</a></li>
+
                         <li><a href="{{ route('kontak') }}" class="hover:text-[#D9822B] transition-colors flex items-center gap-2"><span class="text-[#D9822B]">›</span> Hubungi Kami & FAQ</a></li>
                     </ul>
                 </div>
