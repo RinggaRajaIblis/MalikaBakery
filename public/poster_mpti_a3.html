@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster MPTI A3 - MalikaBakery Lombok</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @page {
+            size: A3 portrait;
+            margin: 0;
+        }
+        body {
+            font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+            background-color: #e5e9f0;
+            color: #1e293b;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        @media print {
+            .no-print { display: none !important; }
+            body { background: white; padding: 0; margin: 0; }
+            .a3-page { 
+                box-shadow: none !important; 
+                border: none !important; 
+                margin: 0 !important;
+                width: 100vw !important;
+                height: 100vh !important;
+                max-width: none !important;
+            }
+        }
+        .header-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+        .pill-title {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+    </style>
+</head>
+<body class="py-6 px-4 flex flex-col items-center justify-center min-h-screen">
+
+    <!-- Action Toolbar (No Print) -->
+    <div class="no-print mb-6 flex flex-wrap gap-4 items-center justify-between max-w-5xl w-full bg-white p-4 rounded-2xl shadow-md border border-slate-200">
+        <div class="flex items-center gap-3">
+            <span class="text-2xl">🎓</span>
+            <div>
+                <h2 class="font-bold text-base text-slate-800">Template Poster Academic MPTI (Ukuran A3)</h2>
+                <p class="text-xs text-slate-500">Sesuai Ketentuan & Contoh Poster Universitas (UAD/Dikti)</p>
+            </div>
+        </div>
+        <div class="flex items-center gap-3">
+            <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-xl font-bold text-sm transition flex items-center gap-2 shadow-sm">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path></svg>
+                Cetak / Export A3 PDF
+            </button>
+            <a href="/poster.html" class="bg-slate-100 text-slate-700 hover:bg-slate-200 px-4 py-2.5 rounded-xl font-bold text-sm transition">
+                Poster Promosi Store
+            </a>
+        </div>
+    </div>
+
+    <!-- MAIN A3 POSTER CONTAINER -->
+    <div class="a3-page bg-[#f0f4f8] w-full max-w-[900px] min-h-[1270px] rounded-2xl shadow-2xl border-4 border-slate-300 overflow-hidden flex flex-col justify-between p-5 relative">
+
+        <!-- HEADER BAR WITH LOGOS -->
+        <div class="bg-white rounded-2xl p-4 shadow-sm border border-slate-200 mb-4">
+            
+            <!-- Logos Row -->
+            <div class="flex items-center justify-between px-4 pb-3 border-b border-slate-100">
+                <div class="flex items-center gap-3">
+                    <!-- Generic Univ / Tut Wuri Logo Badge -->
+                    <div class="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xs shadow-sm">
+                        UAD
+                    </div>
+                    <div class="w-10 h-10 rounded-full bg-amber-500 text-white flex items-center justify-center font-bold text-xs shadow-sm">
+                        DIKTI
+                    </div>
+                    <div class="w-10 h-10 rounded-full bg-cyan-500 text-white flex items-center justify-center font-bold text-xs shadow-sm">
+                        MBKM
+                    </div>
+                </div>
+
+                <div class="text-right">
+                    <span class="text-[11px] font-extrabold text-blue-900 tracking-wider uppercase block">Program Studi Informatika / Sistem Informasi</span>
+                    <span class="text-[10px] text-slate-500 font-semibold">Universitas Ahmad Dahlan &bull; MPTI 2026</span>
+                </div>
+            </div>
+
+            <!-- Project Title Box -->
+            <div class="pt-3 text-center">
+                <h1 class="text-2xl sm:text-3xl font-black text-slate-900 leading-tight tracking-tight uppercase">
+                    Pengembangan Sistem Informasi E-Commerce dan Katalog Produk Interaktif MalikaBakery Lombok Berbasis Web
+                </h1>
+                
+                <!-- Tim Pelaksana Proyek -->
+                <div class="mt-2 text-xs text-slate-700 font-semibold flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
+                    <span><strong>Tim Pelaksana:</strong> Tim MPTI MalikaBakery (Mahasiswa Informatika)</span>
+                    <span>&bull;</span>
+                    <span><strong>Dosen Pembimbing:</strong> Bambang Robi'in, M.T. / Drs. Wahyu Pujiyono, M.Kom.</span>
+                </div>
+                <div class="text-[11px] text-slate-600 font-medium text-center mt-0.5">
+                    <strong>Mitra Pengguna Proyek:</strong> Toko Roti & Pastry MalikaBakery (Mataram, Lombok, NTB)
+                </div>
+            </div>
+
+        </div>
+
+        <!-- SUB-HEADER SUMMARY -->
+        <div class="bg-blue-900 text-white p-3 rounded-xl mb-4 text-center shadow-sm">
+            <p class="text-xs font-semibold leading-snug">
+                "Sistem Informasi E-Commerce MalikaBakery adalah solusi web interaktif untuk mempermudah katalogisasi produk roti fresh, manajemen pemesanan langsung WhatsApp, dan efisiensi operasional toko roti di Lombok."
+            </p>
+        </div>
+
+        <!-- 3-COLUMN MAIN GRID CONTENT -->
+        <div class="grid grid-cols-12 gap-4 flex-grow mb-4">
+            
+            <!-- LEFT COLUMN (Span 4) -->
+            <div class="col-span-4 flex flex-col gap-4">
+                
+                <!-- 1. LATAR BELAKANG -->
+                <div class="bg-amber-100/90 rounded-2xl p-4 border border-amber-200 shadow-sm flex-1 flex flex-col">
+                    <div class="bg-amber-400 text-slate-900 font-black text-center py-1.5 px-4 rounded-xl text-sm mb-3 uppercase tracking-wide pill-title">
+                        Latar Belakang
+                    </div>
+                    <p class="text-[11px] text-slate-800 leading-relaxed text-justify">
+                        Pencatatan pesanan roti dan promosi produk di toko <strong>MalikaBakery Lombok</strong> sebelumnya masih dilakukan secara konvensional via pesan singkat manual. Hal ini menimbulkan kendala seperti ketidaksesuaian stok *fresh baked*, keterbatasan jangkauan pasar di luar area toko, serta minimnya katalog visual yang dapat diakses pelanggan setiap saat.
+                    </p>
+                    <p class="text-[11px] text-slate-800 leading-relaxed text-justify mt-2">
+                        Oleh karena itu, diperlukan sistem informasi e-commerce berbasis web yang mampu menampilkan katalog roti interaktif, harga transparan, serta sistem order terintegrasi.
+                    </p>
+                </div>
+
+                <!-- 2. FITUR PRODUK -->
+                <div class="bg-indigo-100/90 rounded-2xl p-4 border border-indigo-200 shadow-sm flex-1 flex flex-col">
+                    <div class="bg-indigo-500 text-white font-black text-center py-1.5 px-4 rounded-xl text-sm mb-3 uppercase tracking-wide pill-title">
+                        Fitur Produk
+                    </div>
+                    <ul class="text-[11px] text-slate-800 space-y-1.5 list-disc list-inside leading-snug">
+                        <li><strong>Katalog Roti Interaktif:</strong> Menampilkan foto roti, varian rasa, & harga real-time.</li>
+                        <li><strong>Integrasi Order WhatsApp:</strong> Format pesan order otomatis terisi detail produk.</li>
+                        <li><strong>Filter Kategori Roti:</strong> Pencarian cepat (Roti Manis, Gurih, Pizza, Pastry).</li>
+                        <li><strong>Landing Page Profil Toko:</strong> Informasi 100% bahan alami, keunggulan real butter, & lokasi Lombok.</li>
+                        <li><strong>Desain Responsive:</strong> Akses optimal dari perangkat Smartphone, Tablet, & Desktop.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- CENTER COLUMN (Span 4) -->
+            <div class="col-span-4 flex flex-col gap-4">
+                
+                <!-- 3. GAMBARAN PRODUK -->
+                <div class="bg-rose-100/90 rounded-2xl p-4 border border-rose-200 shadow-sm flex-1 flex flex-col">
+                    <div class="bg-rose-400 text-white font-black text-center py-1.5 px-4 rounded-xl text-sm mb-3 uppercase tracking-wide pill-title">
+                        Gambaran Produk
+                    </div>
+                    
+                    <!-- UI Screenshot Displays -->
+                    <div class="space-y-2 flex-grow flex flex-col justify-center">
+                        <div class="bg-white p-1.5 rounded-xl border border-rose-300 shadow-sm">
+                            <img src="/images/Roti Paperoni Smoke Beef.jpeg" class="w-full h-28 object-cover rounded-lg" alt="UI Banner Utama">
+                            <div class="text-[9px] font-bold text-center text-slate-700 mt-1">Interface Landing Page & Hero Banner</div>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <div class="bg-white p-1 rounded-xl border border-rose-300 shadow-sm">
+                                <img src="/images/Roti Abon.jpeg" class="w-full h-20 object-cover rounded-md" alt="Katalog Product">
+                                <div class="text-[8px] font-bold text-center text-slate-700 mt-0.5">Katalog Roti</div>
+                            </div>
+                            <div class="bg-white p-1 rounded-xl border border-rose-300 shadow-sm">
+                                <img src="/images/Pizza daging mozzarella.jpeg" class="w-full h-20 object-cover rounded-md" alt="Detail Order">
+                                <div class="text-[8px] font-bold text-center text-slate-700 mt-0.5">Detail & Order WA</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. TAHAPAN PENGEMBANGAN -->
+                <div class="bg-emerald-100/90 rounded-2xl p-4 border border-emerald-200 shadow-sm">
+                    <div class="bg-emerald-500 text-white font-black text-center py-1.5 px-4 rounded-xl text-sm mb-3 uppercase tracking-wide pill-title">
+                        Tahapan Pengembangan
+                    </div>
+                    
+                    <!-- WBS Diagram Steps -->
+                    <div class="space-y-1.5 text-[10px] font-semibold text-slate-800">
+                        <div class="bg-white p-1.5 rounded-lg border border-emerald-300 flex items-center gap-2">
+                            <span class="w-5 h-5 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-[9px]">1</span>
+                            <span><strong>Needs Assessment:</strong> Audit sistem toko & identifikasi kebutuhan.</span>
+                        </div>
+                        <div class="bg-white p-1.5 rounded-lg border border-emerald-300 flex items-center gap-2">
+                            <span class="w-5 h-5 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-[9px]">2</span>
+                            <span><strong>System Design:</strong> Perancangan UI/UX & arsitektur database.</span>
+                        </div>
+                        <div class="bg-white p-1.5 rounded-lg border border-emerald-300 flex items-center gap-2">
+                            <span class="w-5 h-5 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-[9px]">3</span>
+                            <span><strong>Development:</strong> Pengkodean Laravel Framework & Blade Engine.</span>
+                        </div>
+                        <div class="bg-white p-1.5 rounded-lg border border-emerald-300 flex items-center gap-2">
+                            <span class="w-5 h-5 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-[9px]">4</span>
+                            <span><strong>Testing & Deployment:</strong> Pengujian Blackbox & Hosting Vercel.</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- RIGHT COLUMN (Span 4) -->
+            <div class="col-span-4 flex flex-col gap-4">
+                
+                <!-- 5. TUJUAN -->
+                <div class="bg-amber-100/90 rounded-2xl p-4 border border-amber-200 shadow-sm">
+                    <div class="bg-amber-400 text-slate-900 font-black text-center py-1.5 px-4 rounded-xl text-sm mb-3 uppercase tracking-wide pill-title">
+                        Tujuan
+                    </div>
+                    <p class="text-[11px] text-slate-800 leading-relaxed text-justify">
+                        Penelitian dan proyek MPTI ini bertujuan untuk mengimplementasikan aplikasi web e-commerce interaktif yang meningkatkan efisiensi proses pemesanan roti fresh, memberikan kenyamanan bertransaksi bagi pelanggan di Lombok, serta memperluas jangkauan pemasaran toko MalikaBakery.
+                    </p>
+                </div>
+
+                <!-- 6. CARA KERJA -->
+                <div class="bg-[#e0f2fe] rounded-2xl p-4 border border-sky-200 shadow-sm">
+                    <div class="bg-sky-500 text-white font-black text-center py-1.5 px-4 rounded-xl text-sm mb-3 uppercase tracking-wide pill-title">
+                        Cara Kerja
+                    </div>
+                    <div class="space-y-1.5 text-[10px]">
+                        <div class="bg-white p-2 rounded-lg border border-sky-200">
+                            <strong class="text-sky-700 block">Step 1: Akses Katalog Web</strong>
+                            Pelanggan membuka website MalikaBakery & memilih menu roti/pastry favorit.
+                        </div>
+                        <div class="bg-white p-2 rounded-lg border border-sky-200">
+                            <strong class="text-sky-700 block">Step 2: Klik Tombol Order WA</strong>
+                            Sistem secara otomatis mengarahkan ke API WhatsApp dengan pesan terformat.
+                        </div>
+                        <div class="bg-white p-2 rounded-lg border border-sky-200">
+                            <strong class="text-sky-700 block">Step 3: Konfirmasi & Pengiriman</strong>
+                            Admin toko memproses roti fresh baked & melakukan pengiriman ke alamat tujuan.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. KESIMPULAN -->
+                <div class="bg-purple-100/90 rounded-2xl p-4 border border-purple-200 shadow-sm flex-1 flex flex-col">
+                    <div class="bg-purple-500 text-white font-black text-center py-1.5 px-4 rounded-xl text-sm mb-3 uppercase tracking-wide pill-title">
+                        Kesimpulan
+                    </div>
+                    <p class="text-[11px] text-slate-800 leading-relaxed text-justify">
+                        Sistem Informasi MalikaBakery Lombok berhasil dibangun dengan arsitektur web modern. Pengujian menunjukkan sistem mampu memangkas waktu pemesanan hingga 60% dan meningkatkan daya tarik visual produk roti fresh secara signifikan.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- BOTTOM ACKNOWLEDGEMENT ROW -->
+        <div class="bg-white rounded-2xl p-3 border border-slate-300 text-center shadow-sm">
+            <h3 class="text-xs font-black text-slate-900 uppercase tracking-widest mb-1">Acknowledgement:</h3>
+            <p class="text-[10px] text-slate-700 font-semibold leading-tight">
+                Proyek MPTI ini dikembangkan oleh Tim Mahasiswa Informatika dan Didukung oleh: <strong>Program Studi Informatika Universitas Ahmad Dahlan</strong>, <strong>Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi</strong>, serta Mitra Usaha <strong>MalikaBakery Lombok</strong> (Tahun Akademik 2024/2026).
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>

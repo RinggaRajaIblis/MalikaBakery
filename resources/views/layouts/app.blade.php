@@ -27,8 +27,6 @@
 
 <body class="bg-[#FFFDF9] text-[#4A3B32] antialiased flex flex-col min-h-screen selection:bg-[#D9822B] selection:text-white">
 
-
-
     <!-- Main Navbar -->
     <header class="sticky top-0 z-50 bg-[#FFFDF9]/90 backdrop-blur-md border-b border-[#F0E6D8] transition-all duration-300" id="main-header">
         <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center">
@@ -64,7 +62,12 @@
                         Menu Produk
                     </a>
                 </li>
-
+                <li>
+                    <a href="{{ route('toko') }}"
+                        class="px-4 py-2 rounded-full transition-all duration-200 {{ request()->routeIs('toko') ? 'bg-[#8B5E3C] text-white shadow-sm font-semibold' : 'hover:text-[#8B5E3C] hover:bg-[#F9F0E6]' }}">
+                        Toko
+                    </a>
+                </li>
                 <li>
                     <a href="{{ route('kontak') }}"
                         class="px-4 py-2 rounded-full transition-all duration-200 {{ request()->routeIs('kontak') ? 'bg-[#8B5E3C] text-white shadow-sm font-semibold' : 'hover:text-[#8B5E3C] hover:bg-[#F9F0E6]' }}">
@@ -114,7 +117,12 @@
                         Menu Produk
                     </a>
                 </li>
-
+                <li>
+                    <a href="{{ route('toko') }}"
+                        class="block px-4 py-3 rounded-xl {{ request()->routeIs('toko') ? 'bg-[#8B5E3C] text-white font-semibold' : 'hover:bg-[#F9F0E6]' }}">
+                        Toko
+                    </a>
+                </li>
                 <li>
                     <a href="{{ route('kontak') }}"
                         class="block px-4 py-3 rounded-xl {{ request()->routeIs('kontak') ? 'bg-[#8B5E3C] text-white font-semibold' : 'hover:bg-[#F9F0E6]' }}">
@@ -172,7 +180,7 @@
                         <li><a href="{{ route('home') }}" class="hover:text-[#D9822B] transition-colors flex items-center gap-2"><span class="text-[#D9822B]">›</span> Beranda Utama</a></li>
                         <li><a href="{{ route('tentang') }}" class="hover:text-[#D9822B] transition-colors flex items-center gap-2"><span class="text-[#D9822B]">›</span> Tentang MalikaBakery</a></li>
                         <li><a href="{{ route('produk') }}" class="hover:text-[#D9822B] transition-colors flex items-center gap-2"><span class="text-[#D9822B]">›</span> Katalog Menu & Harga</a></li>
-
+                        <li><a href="{{ route('toko') }}" class="hover:text-[#D9822B] transition-colors flex items-center gap-2"><span class="text-[#D9822B]">›</span> Informasi Toko</a></li>
                         <li><a href="{{ route('kontak') }}" class="hover:text-[#D9822B] transition-colors flex items-center gap-2"><span class="text-[#D9822B]">›</span> Hubungi Kami & FAQ</a></li>
                     </ul>
                 </div>
