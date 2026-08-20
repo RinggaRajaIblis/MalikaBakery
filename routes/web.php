@@ -14,6 +14,9 @@ Route::get('/produk', function () {
     return view('produk');
 })->name('produk');
 
+Route::get('/toko', function () {
+    return view('toko');
+})->name('toko');
 
 Route::get('/kontak', function () {
     return view('kontak');
